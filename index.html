@@ -95,7 +95,7 @@
         function getCount() {
             $.ajax({
                 type: 'GET',
-                url: '{EB URL}/file/count',
+                url: 'http://pythonapp-env.eba-ryptti4y.ap-northeast-2.elasticbeanstalk.com/file/count',
                 success: function (data) {
                     $("#count").html(data.count);
                 },
